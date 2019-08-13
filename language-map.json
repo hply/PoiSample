@@ -1,0 +1,27 @@
+{
+  "input_file": "language_test.xlsx",
+  "output_path": "src/main/res/",
+  "language-map": {
+    "en英语-English": "",
+    "de德语-German": "de",
+    "es西班牙语-Spanish": "es",
+    "fr法语-French": "fr",
+    "se瑞典语-Swedish": "sv",
+    "no挪威语-Norwegian": "no",
+    "it意大利语-Italian": "it",
+    "pt葡萄牙语-Portuguese": "pt",
+    "da丹麦语-Danish": "da",
+    "fi芬兰语-Finnish": "fi",
+    "ru俄语-Russian": "ru",
+    "nl荷兰语-Dutch": "nl",
+    "ar阿拉伯语-Arabic": "ar",
+    "he希伯来语-Hebrew": "iw",
+    "pl波兰语-Polish": "pl",
+    "cs捷克语-Czech": "cs",
+    "sk斯洛伐克语-Slovak": "sk",
+    "tr土耳其语-Turkish": "tr",
+    "tw繁体中文": "tw",
+    "id印尼语-Indonesian": "in",
+    "ja日语": "ja"
+  }
+}

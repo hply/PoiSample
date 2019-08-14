@@ -13,6 +13,10 @@ public class StringUtils {
         return null == arg || arg.isEmpty();
     }
 
+    public static boolean isNotEmpty(String arg) {
+        return !isEmpty(arg);
+    }
+
     public static String readFile2String(String filePath) {
         File file = new File(filePath);
         if (!file.exists()) {

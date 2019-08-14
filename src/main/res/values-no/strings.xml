@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_no_search_result">Beklager, ingen tilsvarende titler. Endre varene dine for å finne flere tilsvarende titler</string>
+  <string name="page_no_order">Ingen bestilling er gjort. Start shoppingen nå hos VOVA</string>
+  <string name="page_writeReview_uploadPhoto">last opp bilde,{coinsNo.} EKSTRA MYNTER</string>
+  <string name="page_no_coupon_used">Oops, du har ikke brukt noen kuponger ennå.</string>
+  <string name="page_empty_wishlist">Du har ikke valgt din favorittvare.</string>
+  <string name="page_goods_review_reviews">Anmeldelser</string>
+  <string name="page_category_write_a_review">Skriv en anmeldelse</string>
+  <string name="page_no_shipping_address">Eh … du har ikke lagt til leveringsadressen din ennå</string>
+  <string name="page_no_expired_coupon">Oops, du har ingen utløpte kuponger.</string>
+  <string name="page_no_available_coupon">Oops, det er ingen kupong tilgjengelig for deg nå.</string>
+  <string name="page_no_recently_view">Oi, oi, du har ikke sett på noen produkter i det siste.</string>
+  <string name="page_empty_bag">Eh … du har foreløpig ikke lagt til noen produkter.</string>
+  <string name="app_forgotpassword_page1">Skriv inn e-postadressen tilknyttet Vova.com kontoen, og klikk deretter Send.Vi vil sende deg en link til en side hvor du enkeltkan lage et nytt passord</string>
+</resources>

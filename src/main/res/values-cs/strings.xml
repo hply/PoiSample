@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_no_search_result">Litujeme, podobné zboží nemáme. Pokud změníte podmínky, najdete více podobných druhů zboží.</string>
+  <string name="page_no_order">Objednávka nebyla vytvořena. Začněte nakupovat na VOVA hned teď.</string>
+  <string name="page_writeReview_uploadPhoto">nahrát fotografii,{coinsNo.} MINCÍ NAVÍC</string>
+  <string name="page_no_coupon_used">Jejda, zatím jste nevyužili žádné kupóny.</string>
+  <string name="page_empty_wishlist">Nepřidali jste si oblíbenou položku.</string>
+  <string name="page_goods_review_reviews">Recenze</string>
+  <string name="page_category_write_a_review">Napsat recenzi</string>
+  <string name="page_no_shipping_address">Copak? Ještě jste nezadali doručovací adresu.</string>
+  <string name="page_no_expired_coupon">Jejda, nemáte žádné prošlé kupóny.</string>
+  <string name="page_no_available_coupon">Jejda, teď není k dispozici žádný kupón.</string>
+  <string name="page_no_recently_view">Ale ne! V poslední době jste neprohlíželi žádné zboží.</string>
+  <string name="page_empty_bag">Copak? Ještě jste nepřidali žádné zboží.</string>
+  <string name="app_forgotpassword_page1">Zadejte Vaši emailovou adresu spojenou s Vaším Vova.com účtem a klikněte Odeslat. Pošleme Vám emailem odkaz na stránku, kde sijednoduše můžete vytvořit nové heslo.</string>
+</resources>

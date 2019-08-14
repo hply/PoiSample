@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_no_search_result">Ľutujeme, žiadne súvisiace tituly. Zmeňte svoje temy a nájdite ďalšie súvisiace položky</string>
+  <string name="page_no_order">Nebola zadaná žiadna objednávka. Začnite nakupovať hneď na VOVA</string>
+  <string name="page_writeReview_uploadPhoto">nahrať fotografiu,EXTRA {coinsNo.} MINCÍ</string>
+  <string name="page_no_coupon_used">Hops, ešte ste nepoužili žiadne kupóny.</string>
+  <string name="page_empty_wishlist">Nevybrali ste si svoju obľúbenú položku.</string>
+  <string name="page_goods_review_reviews">Recenzie</string>
+  <string name="page_category_write_a_review">Napíšte recenziu</string>
+  <string name="page_no_shipping_address">Hmm... ešte ste nezadali svoju dodaciu adresu</string>
+  <string name="page_no_expired_coupon">Hops, nemáte kupóny, ktorých doba platnosti vypršala.</string>
+  <string name="page_no_available_coupon">Hops, zatiaľ nie je k dispozícii žiadny kupón.</string>
+  <string name="page_no_recently_view">Uh-oh, v poslednom čase ste si nepozerali žiadne produkty.</string>
+  <string name="page_empty_bag">Hmm... ešte ste nepridali žiadne výrobky.</string>
+  <string name="app_forgotpassword_page1">Zadajte e-mailovú adresu spojenú s vaším účtom na Vova.com, kliknite na tlačidlo Odoslať. Pošleme vám odkaz na stránku, kde si môžete ľahko vytvoriť nové heslo</string>
+</resources>

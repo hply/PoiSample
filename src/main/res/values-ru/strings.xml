@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_no_search_result">Извините, никаких связанных названий. Измените товаров, чтобы найти больше связанных товаров</string>
+  <string name="page_no_order">Заказ не размещен. Начните делать покупки прямо сейчас на Вову</string>
+  <string name="page_writeReview_uploadPhoto">загрузить фотографию,ДОПОЛНИТЕЛЬНЫЕ {coinsNo.} МОНЕТ</string>
+  <string name="page_no_coupon_used">Ойвы еще не использовали купоны.</string>
+  <string name="page_empty_wishlist">Вы еще не выбрали свой любимый предмет.</string>
+  <string name="page_goods_review_reviews">Отзывы</string>
+  <string name="page_category_write_a_review">Оставить отзыв</string>
+  <string name="page_no_shipping_address">М-м-м... вы еще не добавили свой адрес доставки</string>
+  <string name="page_no_expired_coupon">Ой, у вас нет никаких просроченных купонов.</string>
+  <string name="page_no_available_coupon">Ой, пока нет доступного купона.</string>
+  <string name="page_no_recently_view">Ох, вы не просматривали никаких товаров в последнее время.</string>
+  <string name="page_empty_bag">М-м-м... вы еще не добавили никаких продуктов.</string>
+  <string name="app_forgotpassword_page1">Введите адрес электронной почты, связанный с Вашим Vova.com аккаунтом, нажмите Отправить. Мы отправим Вам ссылку страницы для создания нового пароля.</string>
+</resources>

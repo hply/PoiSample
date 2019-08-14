@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_no_search_result">نأسف، لا توجد عناوين ذات علاقة. قم بتغيير شروطك للعثور على المزيد من السلع ذات الصِّلة.</string>
+  <string name="page_no_order">لا توجد طلبية. ابدأ بالتسوق الآن على فوفا.</string>
+  <string name="page_writeReview_uploadPhoto">حمل صورة,{coinsNo.} عملة نقدية إضافية.</string>
+  <string name="page_no_coupon_used">عفواً، لم تستخدم أي قسائم حتى الآن.</string>
+  <string name="page_empty_wishlist">لم تقم باختيار السلعة المفضلة لديك.</string>
+  <string name="page_goods_review_reviews">التعليقات</string>
+  <string name="page_category_write_a_review">كتابة تقييم</string>
+  <string name="page_no_shipping_address">أممم . . . لم تقم بإضافة عنوان الشحن الخاص بك حتى الآن.</string>
+  <string name="page_no_expired_coupon">عفواً، ليس لديك أي قسائم منتهية الصلاحية.</string>
+  <string name="page_no_available_coupon">عفواً، لا توجد قسيمة متوفرة حاليًّا.</string>
+  <string name="page_no_recently_view">أوه، لم تشاهد أي منتجات مؤخراً.</string>
+  <string name="page_empty_bag">أممم . . . لم تقم بإضافة أي منتجات حتى الآن.</string>
+  <string name="app_forgotpassword_page1">أدخل عنوان البريد الإلكتروني المرتبط بحساب Vova.com الخاص إرسال. سنرسل إليك رسالة إلكترونية برابط إلى صفحة حيث بك، ثم انقر فوق يمكنك بسهولة إنشاء كلمة مرور جديدة.</string>
+</resources>

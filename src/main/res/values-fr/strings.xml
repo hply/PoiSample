@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_no_search_result">Désolé, aucun titre apparenté. Modifiez vos préférences pour trouver d'autres articles connexes</string>
+  <string name="page_no_order">Aucune commande passée. Commencez à faire vos achats sur VOVA</string>
+  <string name="page_writeReview_uploadPhoto">Charger la photo,JETONS {coinsNo.} SUPPLÉMENTAIRES</string>
+  <string name="page_no_coupon_used">Oups, vous n'avez pas encore utilisé de coupons.</string>
+  <string name="page_empty_wishlist">Vous n'avez pas choisi votre article préféré.</string>
+  <string name="page_goods_review_reviews">Commentaires</string>
+  <string name="page_category_write_a_review">Ecrire un commentaire</string>
+  <string name="page_no_shipping_address">Ummm.... vous n'avez pas encore ajouté votre adresse de livraison</string>
+  <string name="page_no_expired_coupon">Oups, vous n'avez pas de coupons expirés.</string>
+  <string name="page_no_available_coupon">Oups, pas de coupon disponible pour le moment.</string>
+  <string name="page_no_recently_view">Uh-oh, vous n'avez consulté aucun produit récemment.</string>
+  <string name="page_empty_bag">Ummm... Vous n'avez pas encore ajouté de produits.</string>
+  <string name="app_forgotpassword_page1">Entrez l'adresse email qui correspond à votre compte Vova.com, puis cliquez sur Envoyer. Vous recevrez un email contenantun lien vers la page qui vous permet facilement de créer un nouveau motde passe.</string>
+</resources>

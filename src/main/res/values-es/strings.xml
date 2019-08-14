@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_no_search_result">Lo sentimos, no hay títulos relacionados. Cambie su búsqueda para encontrar más artículos relacionados</string>
+  <string name="page_no_order">No se ha realizado ningún pedido. Comience a comprar en VOVA ahora</string>
+  <string name="page_writeReview_uploadPhoto">subir foto,{coinsNo.} MONEDAS EXTRA</string>
+  <string name="page_no_coupon_used">Vaya, todavía no ha usado ningún cupón.</string>
+  <string name="page_empty_wishlist">No ha elegido su artículo favorito.</string>
+  <string name="page_goods_review_reviews">Comentarios/Reseñas</string>
+  <string name="page_category_write_a_review">Deje su comentario</string>
+  <string name="page_no_shipping_address">Hmmm ... aún no ha añadido su dirección de envío</string>
+  <string name="page_no_expired_coupon">Vaya, no tiene cupones caducados.</string>
+  <string name="page_no_available_coupon">Vaya, no hay cupones disponibles por ahora.</string>
+  <string name="page_no_recently_view">Huy, no ha visto ningún producto recientemente.</string>
+  <string name="page_empty_bag">Hmmm... Aún no ha añadido ningún producto.</string>
+  <string name="app_forgotpassword_page1">Por favor ingrese el correo electrónico que está registrado con Vova.com, haga clic en 'Enviar' y le mandaremos un correo con untodas las instrucciones sobre cómo crear una nueva contraseña.</string>
+</resources>

@@ -1,5 +1,6 @@
 package cn.iyuxuan.poi.utils;
 
+import cn.iyuxuan.poi.map.ArrayMap;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -18,9 +19,9 @@ public class XmlResourcesUtils {
      *
      * @param outputPath 需要导出的目标路径
      */
-    public static HashMap<String, TreeMap<String, String>> readXml2Map(String outputPath) {
+    public static ArrayMap<String, ArrayMap<String, String>> readXml2Map(String outputPath) {
         File outPathDir = new File(outputPath);
-        HashMap<String, TreeMap<String, String>> resultMap = new HashMap<>();
+        ArrayMap<String, ArrayMap<String, String>> resultMap = new ArrayMap<>();
         if (!outPathDir.exists()) {
             boolean mkdirs = outPathDir.mkdirs();
             if (!mkdirs) {
@@ -40,7 +41,7 @@ public class XmlResourcesUtils {
                 if (stringFile.exists()) {
                     if (resultMap.containsKey(fileName)) {
                         try {
-                            resultMap.get(fileName).putAll(parseXml2Map(stringFile));
+                            resultMap.get(fileName).putAllArrayMap(parseXml2Map(stringFile));
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
@@ -59,7 +60,7 @@ public class XmlResourcesUtils {
 
     public static void writeXmlString(String outPath,
                                       String countryValuesName,
-                                      TreeMap<String, String> codeAndString) {
+                                      ArrayMap<String, String> codeAndString) {
         File parentDir = new File(outPath, countryValuesName);
         if (!parentDir.exists()) {
             boolean makeSuccess = parentDir.mkdirs();
@@ -107,11 +108,11 @@ public class XmlResourcesUtils {
     }
 
 
-    public static TreeMap<String, String> parseXml2Map(File xmlFile) throws Exception {
+    public static ArrayMap<String, String> parseXml2Map(File xmlFile) throws Exception {
         SAXReader reader = new SAXReader();
         Document document = reader.read(xmlFile);
         Element rootElement = document.getRootElement();
-        TreeMap<String, String> resultMap = new TreeMap<>();
+        ArrayMap<String, String> resultMap = new ArrayMap<>();
         List<Element> iterator = rootElement.elements("string");
         for (Element element:iterator){
             String lanCode = element.attributeValue("name");

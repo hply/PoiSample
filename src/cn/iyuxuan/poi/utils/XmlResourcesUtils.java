@@ -8,10 +8,7 @@ import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.regex.Pattern;
 
 public class XmlResourcesUtils {
@@ -115,9 +112,8 @@ public class XmlResourcesUtils {
         Document document = reader.read(xmlFile);
         Element rootElement = document.getRootElement();
         TreeMap<String, String> resultMap = new TreeMap<>();
-        Iterator<Element> iterator = rootElement.elementIterator("string");
-        if (iterator.hasNext()) {
-            Element element = iterator.next();
+        List<Element> iterator = rootElement.elements("string");
+        for (Element element:iterator){
             String lanCode = element.attributeValue("name");
             String lanValue = element.getTextTrim();
             String translatable = element.attributeValue("translatable");

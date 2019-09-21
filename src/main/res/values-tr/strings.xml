@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">Üzgünüz, ilgili başlık yok. Daha ilgili ögeler bulmak için arama teriminizi değiştirin.</string>
-  <string name="page_no_order">Hiç sipariş verilmedi. Şimdi VOVA'da alışveriş yapmaya başlayın</string>
-  <string name="page_writeReview_uploadPhoto">fotoğraf yükle,FAZLADAN {coinsNo.} METALİK</string>
-  <string name="page_no_coupon_used">Hoppala, henüz hiç kupon kullanmadınız.</string>
-  <string name="page_empty_wishlist">Favori öğenizi seçmediniz.</string>
-  <string name="page_goods_review_reviews">Değerlendirmeler</string>
-  <string name="page_category_write_a_review">BİR DEĞERLENDİRME YAZIN</string>
-  <string name="page_no_shipping_address">Hmm... Henüz gönderim adresinizi eklemediniz.</string>
-  <string name="page_no_expired_coupon">Aman, hiç süresi dolmuş kuponunuz yok.</string>
-  <string name="page_no_available_coupon">Hay aksi, şimdilik kullanılabilir kupon yok.</string>
-  <string name="page_no_recently_view">A aa, henüz hiç ürün görüntülemediniz.</string>
-  <string name="page_empty_bag">Hmm... Henüz hiç ürün eklemediniz.</string>
-  <string name="app_forgotpassword_page1">Vova hesabınızla ilişkili e-posta adresinizi girin ve daha sonra Gönder'e tıklayın. Size kolayca yeni bir parola oluşturabileceğiniz bir sayfa bağlantısı göndereceğiz.</string>
+  <string name="page_me_myorders_redeemnow1">Şimdi kullan</string>
+  <string name="page_me_myorders_package">PAKET</string>
+  <string name="page_me_myorders_tobereviewed">İncelenecek</string>
+  <string name="page_me_myorders_1gift">1$'LıK HEDIYELER</string>
+  <string name="page_me_myorders_otherdetails">DİĞER DETAYLAR</string>
+  <string name="page_me_myorders_review">İncele</string>
 </resources>

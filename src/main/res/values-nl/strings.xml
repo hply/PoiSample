@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">Sorry, geen gerelateerde titels. Verander uw zoektermen en vind meer gerelateerde artikelen.</string>
-  <string name="page_no_order">Geen bestelling geplaatst. Begin nu met winkelen op VOVA</string>
-  <string name="page_writeReview_uploadPhoto">upload foto,{coinsNo.} EXTRA MUNTEN</string>
-  <string name="page_no_coupon_used">Oeps, u heeft nog geen coupons gebruikt.</string>
-  <string name="page_empty_wishlist">U heeft nog geen favoriet artikel uitgekozen.</string>
-  <string name="page_goods_review_reviews">Ervaringen</string>
-  <string name="page_category_write_a_review">Schrijf een review</string>
-  <string name="page_no_shipping_address">Ummm ... u heeft nog geen verzendadres toegevoegd</string>
-  <string name="page_no_expired_coupon">Oeps, u heeft geen verlopen coupons.</string>
-  <string name="page_no_available_coupon">Oeps, op dit moment is er geen beschikbare coupon.</string>
-  <string name="page_no_recently_view">Oh oh, u heeft recent geen producten bekeken.</string>
-  <string name="page_empty_bag">Ummm ... u heeft nog geen producten toegevoegd.</string>
-  <string name="app_forgotpassword_page1">Vul hier het e-mail adres in wat gekoppeld is aan uw Vova.com account, klik dan op Verstuur. We sturen per email een link naar een pagina waar u een nieuw wachtwoord aan kunt maken.</string>
+  <string name="page_me_myorders_redeemnow1">Verzilver nu</string>
+  <string name="page_me_myorders_package">VERPAKKING</string>
+  <string name="page_me_myorders_tobereviewed">Om gerecenseerd te worden</string>
+  <string name="page_me_myorders_1gift">CADEAUS VAN $1</string>
+  <string name="page_me_myorders_otherdetails">ANDERE DETAILS</string>
+  <string name="page_me_myorders_review">Recensie</string>
 </resources>

@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">Sorry, no related titles. Change your terms to find more related items</string>
-  <string name="page_no_order">No order placed. Start shopping now on VOVA</string>
-  <string name="page_writeReview_uploadPhoto">Upload Photo,EXTRA {coinsNo.} COINS</string>
-  <string name="page_no_coupon_used">Whoops, you haven't used any coupons yet.</string>
-  <string name="page_empty_wishlist">You have not picked your favorite item.</string>
-  <string name="page_goods_review_reviews">Reviews</string>
-  <string name="page_category_write_a_review">Write a review</string>
-  <string name="page_no_shipping_address">Ummm… you haven't added your shipping address yet</string>
-  <string name="page_no_expired_coupon">Whoops, you don't have any expired coupons.</string>
-  <string name="page_no_available_coupon">Whoops, no available coupon for now.</string>
-  <string name="page_no_recently_view">Uh-oh, you haven't view any products recently. Check out similar items on VOVA!</string>
-  <string name="page_empty_bag">Ummm… You haven't added any products yet.</string>
-  <string name="app_forgotpassword_page1">Enter the e-mail address associated with your Vova.com account, then click Send. We'll email you a link to a page where you can easily create a new password.</string>
+  <string name="page_me_myorders_redeemnow1">Redeem now</string>
+  <string name="page_me_myorders_package">PACKAGE</string>
+  <string name="page_me_myorders_tobereviewed">To be reviewed</string>
+  <string name="page_me_myorders_1gift">$1 GIFTS</string>
+  <string name="page_me_myorders_otherdetails">OTHER DETAILS</string>
+  <string name="page_me_myorders_review">Review</string>
 </resources>

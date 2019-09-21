@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">不好意思，沒有檢索到相關商品。更改檢索詞可以找到更多寶貝哦！</string>
-  <string name="page_no_order">您還沒有下過訂單。快在VOVA開始購物之旅吧！</string>
-  <string name="page_writeReview_uploadPhoto">上传图片,再領{coinsNo.}金幣</string>
-  <string name="page_no_coupon_used">啊喔，您還沒有使用過優惠券</string>
-  <string name="page_empty_wishlist">您還沒有挑選喜愛的商品哦</string>
-  <string name="page_goods_review_reviews">評價</string>
-  <string name="page_category_write_a_review">寫評論</string>
-  <string name="page_no_shipping_address">Ummm...您還沒有添加收貨地址哦</string>
-  <string name="page_no_expired_coupon">啊喔，您還沒有過期的優惠券</string>
-  <string name="page_no_available_coupon">啊喔，現在還沒有可用的優惠券</string>
-  <string name="page_no_recently_view">啊喔，您最近還沒有瀏覽過商品哦</string>
-  <string name="page_empty_bag">emmm...您還沒有添加寶貝哦</string>
-  <string name="app_forgotpassword_page1">請輸入與您的VOva帳戶關聯的電子郵件地址，然後點擊發送。我們會通過電子郵件向您發送創建新密碼的連結。</string>
+  <string name="page_me_myorders_redeemnow1">兑换</string>
+  <string name="page_me_myorders_package">包裹</string>
+  <string name="page_me_myorders_tobereviewed">待评论</string>
+  <string name="page_me_myorders_1gift">$1 禮物</string>
+  <string name="page_me_myorders_otherdetails">更多细节</string>
+  <string name="page_me_myorders_review">评论</string>
 </resources>

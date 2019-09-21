@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">Beklager, ingen relaterede titler. Ret dine søgeord for at finde flere relaterede varer</string>
-  <string name="page_no_order">Ingen ordre afgivet. Begynd at shoppe nu på VOVA</string>
-  <string name="page_writeReview_uploadPhoto">opload billede,{coinsNo.} EKSTRA MØNTER</string>
-  <string name="page_no_coupon_used">Hovsa, du har ikke brugt nogen kuponer endnu.</string>
-  <string name="page_empty_wishlist">Du har ikke valgt din yndlingsvare.</string>
-  <string name="page_goods_review_reviews">Anmeldelser</string>
-  <string name="page_category_write_a_review">Skriv en anmeldelse</string>
-  <string name="page_no_shipping_address">Ømmm… du har ikke tilføjet din leveringsadresse endnu</string>
-  <string name="page_no_expired_coupon">Hovsa, du har ikke nogen udløbne kuponer.</string>
-  <string name="page_no_available_coupon">Hovsa, ingen tilgængelig kupon lige nu.</string>
-  <string name="page_no_recently_view">Åh-åh, du har ikke set nogen produkter for nylig.</string>
-  <string name="page_empty_bag">Ømmm… Du har ikke tilføjet nogen produkter endnu.</string>
-  <string name="app_forgotpassword_page1">Indtast e-mail-adressen som står i din Vova.com konto, og klik derefter på Send. Vi e-mailer dig et link til en side hvor du nemt kan oprette en ny adgangskode.</string>
+  <string name="page_me_myorders_redeemnow1">Indløs nu</string>
+  <string name="page_me_myorders_package">EMBALLAGE</string>
+  <string name="page_me_myorders_tobereviewed">Til bedømmelse</string>
+  <string name="page_me_myorders_1gift">GAVER TIL 1$</string>
+  <string name="page_me_myorders_otherdetails">ANDRE DETALJER</string>
+  <string name="page_me_myorders_review">Bedøm</string>
 </resources>

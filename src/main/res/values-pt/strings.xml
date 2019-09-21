@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">Desculpe, não há títulos relacionados. Altere seus itens para encontrar mais itens relacionados</string>
-  <string name="page_no_order">Nenhum pedido feito. Comece a comprar agora na VOVA</string>
-  <string name="page_writeReview_uploadPhoto">enviar foto,{coinsNo.} MOEDAS EXTRAS</string>
-  <string name="page_no_coupon_used">Ops, você não usou nenhum cupom ainda.</string>
-  <string name="page_empty_wishlist">Você não escolheu seu item favorito.</string>
-  <string name="page_goods_review_reviews">Depoimentos</string>
-  <string name="page_category_write_a_review">Escreve um depoimento</string>
-  <string name="page_no_shipping_address">Hmmm... você ainda não inseriu seu endereço de entrega</string>
-  <string name="page_no_expired_coupon">Ops, você não tem nenhum cupom expirado.</string>
-  <string name="page_no_available_coupon">Ops, nenhum cupom disponível no momento.</string>
-  <string name="page_no_recently_view">Que pena, você não visualizou nenhum produto recentemente.</string>
-  <string name="page_empty_bag">Hmmm... você ainda não adicionou nenhum produto.</string>
-  <string name="app_forgotpassword_page1">Adicione o seu email que está associado com a sua conta no Vova.com, e clique enviar. Nós enviaremos um link para uma páginaonde você pode criar uma nova senha.</string>
+  <string name="page_me_myorders_redeemnow1">Resgatar agora</string>
+  <string name="page_me_myorders_package">EMBALAGEM</string>
+  <string name="page_me_myorders_tobereviewed">A ser revisto</string>
+  <string name="page_me_myorders_1gift">PRESENTES DE 1 DÓLAR</string>
+  <string name="page_me_myorders_otherdetails">OUTROS PORMENORES</string>
+  <string name="page_me_myorders_review">Rever</string>
 </resources>

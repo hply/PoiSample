@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">Lamentamos, não existem títulos relacionados. Mude os seus termos para encontrar artigos mais relacionados</string>
-  <string name="page_no_order">Não foi feita nenhuma encomenda. Comece já a comprar no VOVA</string>
-  <string name="page_writeReview_uploadPhoto">carica foto,{coinsNo.} MONETE EXTRA</string>
-  <string name="page_no_coupon_used">Ups, ainda não utilizou cupões.</string>
-  <string name="page_empty_wishlist">Não escolheu o seu artigo preferido.</string>
-  <string name="page_goods_review_reviews">Recensioni</string>
-  <string name="page_category_write_a_review">Scrivi una recensione</string>
-  <string name="page_no_shipping_address">Hum... ainda não adicionou a sua morada de envio</string>
-  <string name="page_no_expired_coupon">Ups, não tem cupões expirados.</string>
-  <string name="page_no_available_coupon">Ups, por enquanto não existem cupões disponíveis.</string>
-  <string name="page_no_recently_view">Oh não, não viu produtos recentemente.</string>
-  <string name="page_empty_bag">Hum... Ainda não adicionou produtos.</string>
-  <string name="app_forgotpassword_page1">Per favore inserisci il tuo indirizzo e-mail associato al tuoaccount Vova.com. Ti invieremo tramite e-mail il link ad una paginada cui creare una nuova password.</string>
+  <string name="page_me_myorders_redeemnow1">Riscatta ora</string>
+  <string name="page_me_myorders_package">IMBALLO</string>
+  <string name="page_me_myorders_tobereviewed">Da rivedere</string>
+  <string name="page_me_myorders_1gift">$1 REGALI</string>
+  <string name="page_me_myorders_otherdetails">ALTRI DETTAGLI</string>
+  <string name="page_me_myorders_review">Revisione</string>
 </resources>

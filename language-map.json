@@ -1,6 +1,6 @@
 {
-  "input_file": "language_test.xlsx",
-  "output_path": "src/main/res/",
+  "input_file": "rich_text_lang.xlsx",
+  "output_path": "C:/code/VovaAndroid/reslib/src/main/res/",
   "language-map": {
     "en英语-English": "",
     "de德语-German": "de",

@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">מצטערים, לא נמצאו שמות קשורים. שנו את מילות החיפוש כדי למצוא עוד פריטים קשורים.</string>
-  <string name="page_no_order">לא בוצעה הזמנה. התחילו לקנות עכשיו ב-VOVA.</string>
-  <string name="page_writeReview_uploadPhoto">העלו תמונ,{coinsNo.} מטבעות נוספים</string>
-  <string name="page_no_coupon_used">אופס, עדיין לא השתמשתם באף קופון.</string>
-  <string name="page_empty_wishlist">לא בחרתם את הפריט האהוב עליכם.</string>
-  <string name="page_goods_review_reviews">חוות דעת</string>
-  <string name="page_category_write_a_review">כתבי חוות דעת</string>
-  <string name="page_no_shipping_address">אמממ... עדיין לא הוספתם את הכתובת למשלוחים.</string>
-  <string name="page_no_expired_coupon">אופס, אין לכם אף קופון שפג תוקפו.</string>
-  <string name="page_no_available_coupon">אופס, אין קופון זמין כרגע.</string>
-  <string name="page_no_recently_view">או-או, לא צפיתם באף מוצר לאחרונה.</string>
-  <string name="page_empty_bag">אמממ... עדיין לא הוספתם אף מוצר.</string>
-  <string name="app_forgotpassword_page1">אנא הכניסי את כתובת דואר האלקטרוני המקושר לחשבונך ב-Vova.com, ולאחר מכן לחצי שלח. ישלח אליך לינק שבו ניתן ליצור סיסמא חדשה.</string>
+  <string name="page_me_myorders_redeemnow1">ממש/י עכשיו</string>
+  <string name="page_me_myorders_package">חבילה</string>
+  <string name="page_me_myorders_tobereviewed">למתן חוות דעת</string>
+  <string name="page_me_myorders_1gift">מתנות ב-$ אחד.</string>
+  <string name="page_me_myorders_otherdetails">פרטים אחרים</string>
+  <string name="page_me_myorders_review">חוות דעת</string>
 </resources>

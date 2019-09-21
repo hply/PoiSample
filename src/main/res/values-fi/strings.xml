@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="page_no_search_result">Valitettavasti vastaavia tuotteita ei löytynyt. Voit löytää vastaavia tuotteita hakuehtoja muuttamalla</string>
-  <string name="page_no_order">Ei tehtyjä tilauksia. Aloita ostosten tekeminen VOVAssa saman tien</string>
-  <string name="page_writeReview_uploadPhoto">lataa valokuva,YLIMÄÄRÄISET {coinsNo.} KOLIKKOA</string>
-  <string name="page_no_coupon_used">Oho, et ole vielä käyttänyt kuponkeja.</string>
-  <string name="page_empty_wishlist">Et ole valinnut suosikkituotettasi.</string>
-  <string name="page_goods_review_reviews">Arvosteluja</string>
-  <string name="page_category_write_a_review">Kirjoita arvostelu</string>
-  <string name="page_no_shipping_address">Tuota noin… et ole vielä lisännyt toimitusosoitettasi</string>
-  <string name="page_no_expired_coupon">Oho, sinulla ei ole umpeutuneita kuponkeja.</string>
-  <string name="page_no_available_coupon">Oho, kuponkeja ei ole tällä hetkellä saatavilla.</string>
-  <string name="page_no_recently_view">Kas, et ole näemmä tarkastellut yhtäkään tuotetta viime aikoina.</string>
-  <string name="page_empty_bag">Tuota noin… et ole vielä lisännyt tuotteita.</string>
-  <string name="app_forgotpassword_page1">Anna sähköpostiosoiteesi joka on liitetty Vova.com tiliin, sitten paina Lähetä. Me lähetämme sinulle linkin sivustolle jolla voit helposti luoda uuden salasanan.</string>
+  <string name="page_me_myorders_redeemnow1">Lunasta nyt</string>
+  <string name="page_me_myorders_package">PAKETTI</string>
+  <string name="page_me_myorders_tobereviewed">Arvioidaan</string>
+  <string name="page_me_myorders_1gift">1 $:N LAHJOJA</string>
+  <string name="page_me_myorders_otherdetails">MUUT TIEDOT</string>
+  <string name="page_me_myorders_review">Arvostelu</string>
 </resources>

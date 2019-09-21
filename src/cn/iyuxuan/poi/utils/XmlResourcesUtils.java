@@ -85,6 +85,7 @@ public class XmlResourcesUtils {
         try {
             stream = new FileOutputStream(stringXml);
             xw = new XMLWriter(stream, format);
+            xw.setEscapeText(true);
             xw.write(doc);
             xw.flush();
         } catch (Exception e) {

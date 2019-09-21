@@ -9,6 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.json.JSONObject;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Map;
 
@@ -20,7 +21,12 @@ public class ExcelUtils {
      */
     public static ArrayMap<String, ArrayMap<String, String>> readExcel(String excelFilePath,
                                                                        JSONObject languageMap) throws Exception {
-        XSSFSheet excelSheet = new XSSFWorkbook(OPCPackage.open(excelFilePath)).getSheetAt(0);
+        File file = new File(excelFilePath);
+        if (!file.exists()){
+            throw new IllegalArgumentException("Excel文案路径不存在["+excelFilePath+"]");
+        }
+        OPCPackage aPackage = OPCPackage.open(excelFilePath);
+        XSSFSheet excelSheet = new XSSFWorkbook(aPackage).getSheetAt(0);
 //        HSSFSheet excelSheet = new HSSFWorkbook(new FileInputStream(inputPath)).getSheetAt(0);
         int rowNum = excelSheet.getLastRowNum();
 //        int columnNum = excelSheet.getRow(0).getPhysicalNumberOfCells();

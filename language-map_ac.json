@@ -1,0 +1,22 @@
+{
+  "input_file": "2661.xlsx",
+  "output_path": "C:/code/airyclub_android/reslib/src/main/res/",
+  "language-map": {
+    "en": "",
+    "de": "de",
+    "es": "es",
+    "fr": "fr",
+    "se": "sv",
+    "no": "no",
+    "it": "it",
+    "pt": "pt",
+    "da": "da",
+    "fi": "fi",
+    "ru": "ru",
+    "nl": "nl",
+    "pl": "pl",
+    "cs": "cs",
+    "sk": "sk",
+    "tr": "tr"
+  }
+}

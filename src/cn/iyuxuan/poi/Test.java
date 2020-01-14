@@ -13,7 +13,7 @@ import java.util.function.BiConsumer;
 public class Test {
 
     public static void main(String[] args) throws Exception {
-        JSONObject configInfo = new JSONObject(StringUtils.readFile2String("language-map_simple.json"));
+        JSONObject configInfo = new JSONObject(StringUtils.readFile2String("language-map_ac.json"));
         String inputPath = configInfo.get("input_file").toString();
         String outputPath = configInfo.get("output_path").toString();
         JSONObject languageMap = configInfo.getJSONObject("language-map");

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">vain yksi jäljellä</string>
+  <string name="page_stock2">{number} kpl jäljellä</string>
+  <string name="app_continue">Jatkaa</string>
+  <string name="page_intermediate_deliver_method">Toimitustapa</string>
+  <string name="page_intermediate_invalid_delivery">Pahoittelemme, valitsemasi tuote on loppunut varastosta. Haluaisitko valita jotakin muuta?</string>
+  <string name="page_intermediate_edit">Muokkaa Koria</string>
+  <string name="page_intermediate_invalid1">Pahoittelemme, tätä tuotetta ei voida syystä tai toisesta toimittaa.</string>
+  <string name="page_intermediate_invalid2">Voit jatkaa ostotapahtumaa muiden tuotteiden osalta tai selailla lisää tuotteita.</string>
+  <string name="page_intermediate_common_error">Hupsis, jokin meni pieleen valituissa kohteissa. Lue alta lisätietoa</string>
+</resources>

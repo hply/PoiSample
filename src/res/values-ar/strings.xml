@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">قطعة واحدة متبقّية</string>
+  <string name="page_stock2">{number} قطع متبقّية</string>
+  <string name="app_continue">متابعة</string>
+  <string name="page_intermediate_deliver_method">طريقة التوصيل</string>
+  <string name="page_intermediate_invalid_delivery">عذراً، لقد نَفَذَ نوع المنتج المحدَّد. هل ترغب باختيار نوع آخر؟</string>
+  <string name="page_intermediate_edit">تعديل الحقيبة</string>
+  <string name="page_intermediate_invalid1">عذراً، لا يمكن شحن هذا المنتج لبعض الأسباب.</string>
+  <string name="page_intermediate_invalid2">يمكنك متابعة عملية الشراء للعناصر الأخرى أو عرض المزيد.</string>
+  <string name="page_intermediate_common_error">عفواً، هناك مشكلة ما بالعناصر المحدَّدة. انظر بالأسفل لمزيد من المعلومات</string>
+</resources>

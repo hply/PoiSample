@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">נשאר רק אחד</string>
+  <string name="page_stock2">[[[number]]] פריטים נותרו</string>
+  <string name="app_continue">המשך</string>
+  <string name="page_intermediate_deliver_method">שיטת משלוח</string>
+  <string name="page_intermediate_invalid_delivery">סליחה, סוג המוצר הנבחר אזל במלאי. שוקל/ת לבחור סוג אחר?</string>
+  <string name="page_intermediate_edit">ערוך תיק</string>
+  <string name="page_intermediate_invalid1">סליחה, לא ניתן לשלוח מוצר זה מכמה סיבות.</string>
+  <string name="page_intermediate_invalid2">באפשרותך להמשיך לתשלום על מוצרים אחרים או לתצוגה של מוצרים אחרים.</string>
+  <string name="page_intermediate_common_error">אופס, משהו השתבש עם הפריטים הנבחרים. ראו להלן מידע נוסף.</string>
+</resources>

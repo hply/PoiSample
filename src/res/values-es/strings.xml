@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">solo queda uno</string>
+  <string name="page_stock2">quedan {number} unidades</string>
+  <string name="app_continue">Continuar</string>
+  <string name="page_intermediate_deliver_method">Método de envío</string>
+  <string name="page_intermediate_invalid_delivery">Lo sentimos, el tipo de producto seleccionado está agotado. Le sugerimos considerar elegir otro tipo.</string>
+  <string name="page_intermediate_edit">editar bolsa</string>
+  <string name="page_intermediate_invalid1">Lo sentimos, por alguna razón este producto no puede enviarse.</string>
+  <string name="page_intermediate_invalid2">Puede continuar revisando otros artículos o ver más.</string>
+  <string name="page_intermediate_common_error">Vaya, algo salió mal con los elementos seleccionados. Vea más abajo para más información</string>
+</resources>

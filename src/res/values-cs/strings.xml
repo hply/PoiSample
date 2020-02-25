@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">zbývá jen jeden</string>
+  <string name="page_stock2">zbývá {number} obrázků</string>
+  <string name="app_continue">Pokračovat</string>
+  <string name="page_intermediate_deliver_method">Způsob doručení</string>
+  <string name="page_intermediate_invalid_delivery">Je nám líto, zvolený typ produktu není na skladě. Zvažte výběr jiného typu.</string>
+  <string name="page_intermediate_edit">Upravit Tašku</string>
+  <string name="page_intermediate_invalid1">Je nám líto, tento produkt z určitých důvodů nelze odeslat.</string>
+  <string name="page_intermediate_invalid2">Můžete pokračovat v nákupu ostatních položek nebo zobrazit více informací.</string>
+  <string name="page_intermediate_common_error">Jejda, u zvolených položek došlo k chybě. Více informací najdete níže</string>
+</resources>

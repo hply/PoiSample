@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">осталось только одно</string>
+  <string name="page_stock2">осталось {number} шт</string>
+  <string name="app_continue">продолжить</string>
+  <string name="page_intermediate_deliver_method">Способ доставки</string>
+  <string name="page_intermediate_invalid_delivery">Извините, выбранного типа товара нет на складе. Рассмотрите вариант с выбором другого типа?</string>
+  <string name="page_intermediate_edit">редактировать корзину</string>
+  <string name="page_intermediate_invalid1">Извините, мы не можем отправить этот товар по определенным причинам.</string>
+  <string name="page_intermediate_invalid2">Вы можете продолжить, чтобы перейти в корзину с другими товарами или посмотреть еще.</string>
+  <string name="page_intermediate_common_error">Упс, с выбранными товарами что-то пошло не так. Дополнительная информация ниже</string>
+</resources>

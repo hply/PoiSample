@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">tinggal sisa satu</string>
+  <string name="page_stock2">{number} barang tersisa</string>
+  <string name="app_continue">Lanjutkan</string>
+  <string name="page_intermediate_deliver_method">Metode Pengiriman</string>
+  <string name="page_intermediate_invalid_delivery">Maaf, jenis produk yang dipilih sedang habis persediaannya. Maukah untuk mempertimbangkan memilih tipe lain?</string>
+  <string name="page_intermediate_edit">Ubah Troli</string>
+  <string name="page_intermediate_invalid1">Maaf, produk ini tidak dapat dikirim karena alasan tertentu.</string>
+  <string name="page_intermediate_invalid2">Anda dapat melanjutkan menyelesaikan transaksi barang-barang lain atau melihat-lihat lebih lanjut.</string>
+  <string name="page_intermediate_common_error">Ups, ada masalah dengan barang yang dipilih. Lihat di bawah untuk informasi lebih lanjut</string>
+</resources>

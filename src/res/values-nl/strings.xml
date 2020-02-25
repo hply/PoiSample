@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">nog maar één over</string>
+  <string name="page_stock2">{number} stukken over</string>
+  <string name="app_continue">Ga Verder</string>
+  <string name="page_intermediate_deliver_method">Leveringswijze</string>
+  <string name="page_intermediate_invalid_delivery">Sorry, het geselecteerde producttype is uitverkocht. Overweeg een ander type te kiezen?</string>
+  <string name="page_intermediate_edit">Wijzig Winkelmandje</string>
+  <string name="page_intermediate_invalid1">Sorry, er is/zijn reden(en) waarom dit product niet verzonden kan worden.</string>
+  <string name="page_intermediate_invalid2">Je kunt nu verdergaan en andere artikelen afrekenen of meer bekijken.</string>
+  <string name="page_intermediate_common_error">Oeps, er is iets fout gegaan met geselecteerde items. Hieronder staat meer informatie</string>
+</resources>

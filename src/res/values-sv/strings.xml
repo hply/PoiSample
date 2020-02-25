@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">endast en kvar</string>
+  <string name="page_stock2">{number} st kvar</string>
+  <string name="app_continue">Fortsätt</string>
+  <string name="page_intermediate_deliver_method">Leveransmetod</string>
+  <string name="page_intermediate_invalid_delivery">Tyvärr så är den valda produkten slut i lager. Fundera på att välja en annan sort?</string>
+  <string name="page_intermediate_edit">Redigera Varukorg</string>
+  <string name="page_intermediate_invalid1">Tyvärr så kan denna produkt av någon anledning inte fraktas.</string>
+  <string name="page_intermediate_invalid2">Du kan fortsätta kolla på andra varor eller visa mer.</string>
+  <string name="page_intermediate_common_error">Hoppsan, något blev fel med valda föremål. Se nedan för mer information</string>
+</resources>

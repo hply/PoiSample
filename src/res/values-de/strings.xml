@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">nur noch einer übrig</string>
+  <string name="page_stock2">{number} PCs übrig</string>
+  <string name="app_continue">Weiter</string>
+  <string name="page_intermediate_deliver_method">Versandart</string>
+  <string name="page_intermediate_invalid_delivery">Entschuldigung, die gewählte Produktart ist vergriffen. Erwägen Sie es, eine andere Art zu wählen?</string>
+  <string name="page_intermediate_edit">Warenkorb</string>
+  <string name="page_intermediate_invalid1">Entschuldigung, aus irgendeinem Grund kann dieses Produkt nicht geliefert werden.</string>
+  <string name="page_intermediate_invalid2">Sie können weitere Produkte ausprobieren oder mehr anschauen.</string>
+  <string name="page_intermediate_common_error">Ups, etwas ist mit den ausgewählten Artikeln schiefgelaufen. Siehe unten für mehr Informationen</string>
+</resources>

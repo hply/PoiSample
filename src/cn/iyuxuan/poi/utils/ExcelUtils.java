@@ -22,13 +22,13 @@ public class ExcelUtils {
     public static ArrayMap<String, ArrayMap<String, String>> readExcel(String excelFilePath,
                                                                        JSONObject languageMap) throws Exception {
         File file = new File(excelFilePath);
-        if (!file.exists()){
-            throw new IllegalArgumentException("Excel文案路径不存在["+excelFilePath+"]");
+        if (!file.exists()) {
+            throw new IllegalArgumentException("Excel文案路径不存在[" + excelFilePath + "]");
         }
         OPCPackage aPackage = OPCPackage.open(excelFilePath);
         XSSFSheet excelSheet = new XSSFWorkbook(aPackage).getSheetAt(0);
 //        HSSFSheet excelSheet = new HSSFWorkbook(new FileInputStream(inputPath)).getSheetAt(0);
-        int rowNum = excelSheet.getLastRowNum();
+        int rowNum = excelSheet.getLastRowNum() + 1;
 //        int columnNum = excelSheet.getRow(0).getPhysicalNumberOfCells();
         ArrayMap<String, ArrayMap<String, String>> newLanguageMap = new ArrayMap<>();
         //获取第一行国家语言
@@ -100,11 +100,11 @@ public class ExcelUtils {
                 String code = currLanMap.keyAt(codeIndex);
                 String value = currLanMap.valueAt(codeIndex);
                 HSSFRow codeRow = sheet.getRow(codeIndex + 1);
-                if (codeRow==null){
+                if (codeRow == null) {
                     codeRow = sheet.createRow(codeIndex + 1);
                 }
                 HSSFCell codeRowCell = codeRow.getCell(0);
-                if (codeRowCell==null){
+                if (codeRowCell == null) {
                     codeRowCell = codeRow.createCell(0);
                 }
                 codeRowCell.setCellValue(code);

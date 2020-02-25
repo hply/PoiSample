@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">só resta uma</string>
+  <string name="page_stock2">restam {number} imagens</string>
+  <string name="app_continue">Continuar</string>
+  <string name="page_intermediate_deliver_method">Método de Entrega</string>
+  <string name="page_intermediate_invalid_delivery">Desculpe, o tipo de produto selecionado está esgotado. Considera escolher outro tipo?</string>
+  <string name="page_intermediate_edit">Editar Carrinho</string>
+  <string name="page_intermediate_invalid1">Desculpe, este produto não pode ser enviado por alguns motivos.</string>
+  <string name="page_intermediate_invalid2">Pode continuar a verificar outros itens ou ver mais.</string>
+  <string name="page_intermediate_common_error">Ups, ocorreu um erro com os itens selecionados. Veja abaixo para mais informações</string>
+</resources>

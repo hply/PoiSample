@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">only one left</string>
+  <string name="page_stock2">{number}pcs left</string>
+  <string name="app_continue">Continue</string>
+  <string name="page_intermediate_deliver_method">Delivery Method</string>
+  <string name="page_intermediate_invalid_delivery">Sorry, the selected product type is out of stock. Consider choosing another type?</string>
+  <string name="page_intermediate_edit">Edit Bag</string>
+  <string name="page_intermediate_invalid1">Sorry, this product can't be shipped for some reasons.</string>
+  <string name="page_intermediate_invalid2">You may continue to check out other items or view more .</string>
+  <string name="page_intermediate_common_error">Oops, something went wrong with selected items. See below for more information</string>
+</resources>

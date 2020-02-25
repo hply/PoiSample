@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="page_stock1">sadece bir tane kaldı</string>
+  <string name="page_stock2">{number} adet kaldı</string>
+  <string name="app_continue">Devam</string>
+  <string name="page_intermediate_deliver_method">TESLİMAT YÖNTEMİ</string>
+  <string name="page_intermediate_invalid_delivery">Üzgünüz, seçili ürün türü stokta kalmamış. Başka bir tür seçmeyi düşünür müsünüz?</string>
+  <string name="page_intermediate_edit">çantayı düzenle</string>
+  <string name="page_intermediate_invalid1">Üzgünüz, bu ürün bazı nedenlerden ötürü gönderilemiyor</string>
+  <string name="page_intermediate_invalid2">Diğer ögelerin ödemesine devam edebilir veya daha fazlasını görüntüleyebilirsiniz.</string>
+  <string name="page_intermediate_common_error">Hay aksi, seçili ögelere ilişkin bir şeyler ters gitti. Daha fazla bilgi için aşağıya bakın</string>
+</resources>

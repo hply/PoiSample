@@ -21,7 +21,7 @@ fun main() {
     val list = arrayListOf<Pair<String, String>>()
     elements.forEach {
         val lanCode: String = it.attributeValue("name")
-        val lanValue: String = it.textTrim
+        val lanValue: String = it.text
         list.add(Pair(lanCode, lanValue))
     }
     val newList = arrayListOf<Pair<String, String>>()
@@ -64,8 +64,7 @@ fun main() {
 fun load(fileName: String): Document? {
     var document: Document? = null
     try {
-        val saxReader = SAXReader()
-        document = saxReader.read(File(fileName)) // 读取XML文件,获得document对象
+        document = SAXReader().read(File(fileName)) // 读取XML文件,获得document对象
     } catch (ex: Exception) {
         ex.printStackTrace()
     }

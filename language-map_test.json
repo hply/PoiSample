@@ -1,6 +1,6 @@
 {
-  "input_file": "2661.xlsx",
-  "output_path": "/Users/ilingjuan/code/hply/PoiSample/src/res",
+  "input_file": "lang_excel_test.xlsx",
+  "output_path": "src/res",
   "language-map": {
     "en": "",
     "de": "de",

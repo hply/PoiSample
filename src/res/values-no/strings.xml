@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Klagedetaljer</string>
+  <string name="page_order_detail_complain_text_title1">Send inn klage</string>
+  <string name="page_order_detail_complain_text_title2">Skriv en detaljert melding her:</string>
+  <string name="page_order_detail_complain_button">klag</string>
   <string name="page_stock1">bare en igjen</string>
   <string name="page_stock2">{number} stk igjen</string>
   <string name="app_continue">Fortsett</string>
   <string name="page_intermediate_deliver_method">Leveringsmetode</string>
   <string name="page_intermediate_invalid_delivery">Beklager, valgt produkttype er utsolgt. Har du vurdert å velge en annen produkttype?</string>
+  <string name="page_order_detail_complain_success_submit">klagen er sendt inn</string>
   <string name="page_intermediate_edit">Endre Pose</string>
   <string name="page_intermediate_invalid1">Beklager, dette produktet kan, av en eller annen grunn, ikke sendes.</string>
   <string name="page_intermediate_invalid2">Du kan fortsatt sjekke ut andre varer eller se mer.</string>
+  <string name="page_order_detail_complain_text_helpinfo">Beskriv klageårsaken i detalj, slik at vi kan løse problemet på best mulig måte.</string>
   <string name="page_intermediate_common_error">Oops, noe gikk galt med de valgte varene. Se under for ytterligere informasjon</string>
 </resources>

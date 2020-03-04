@@ -1,5 +1,6 @@
-package cn.iyuxuan.poi
+package test
 
+import cn.iyuxuan.poi.toJson
 import cn.iyuxuan.poi.utils.ExcelUtils
 import cn.iyuxuan.poi.utils.StringUtils
 import org.json.JSONObject
@@ -11,6 +12,13 @@ fun main() {
     val languageMap = configInfo.getJSONObject("language-map")
     //读取配置文件input_file路径下的excel
     val excelMap = ExcelUtils.readExcel(inputPath, languageMap)
+    //println(excelMap.toJson())
 
-    println(excelMap.toJson())
+    val testEn = excelMap["values"]?.map {
+        Pair<String, String>(it.key, it.value)
+    }
+    testEn?.let {
+        TestXmlUtils.write("src/test8888","my_xml",it)
+    }
+
 }

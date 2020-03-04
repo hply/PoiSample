@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Szczegóły zażalenia</string>
+  <string name="page_order_detail_complain_text_title1">Zgłoś zażalenie</string>
+  <string name="page_order_detail_complain_text_title2">Opisz tutaj szczegółowo problem:</string>
+  <string name="page_order_detail_complain_button">zażalenie</string>
   <string name="page_stock1">pozostała tylko jedna</string>
   <string name="page_stock2">pozostało {number} szt</string>
   <string name="app_continue">kontynuuj</string>
   <string name="page_intermediate_deliver_method">Metoda Wysyłki</string>
   <string name="page_intermediate_invalid_delivery">Przepraszamy, wybrany rodzaj produktu jest niedostępny. Może wybierzesz inny rodzaj?</string>
+  <string name="page_order_detail_complain_success_submit">zażalenie zostało przyjęte</string>
   <string name="page_intermediate_edit">Edytuj Torbę</string>
   <string name="page_intermediate_invalid1">Przepraszamy, z jakiegoś powodu nie można wysłać tego produktu.</string>
   <string name="page_intermediate_invalid2">Możesz przejść do kasy z pozostałymi przedmiotami lub przeglądać kolejne.</string>
+  <string name="page_order_detail_complain_text_helpinfo">Opisz szczegółowo przyczyny zgłoszenia zażalenia, byśmy mogli jak najsprawniej rozwiązać problem.</string>
   <string name="page_intermediate_common_error">Ups, coś poszło nie tak z wybranymi przedmiotami. Więcej informacji znajduje się poniżej</string>
 </resources>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Dettagli del reclamo</string>
+  <string name="page_order_detail_complain_text_title1">Invia il tuo reclamo</string>
+  <string name="page_order_detail_complain_text_title2">Scrivi qui il tuo messaggio dettagliato:</string>
+  <string name="page_order_detail_complain_button">Reclamo</string>
   <string name="page_stock1">ne manca solo uno</string>
   <string name="page_stock2">{number}pezzi rimasti</string>
   <string name="app_continue">Continuate</string>
   <string name="page_intermediate_deliver_method">Metodi di spedizione</string>
   <string name="page_intermediate_invalid_delivery">Siamo spiacenti, il tipo di prodotto selezionato non è disponibile. Hai considerato di sceglierne un altro tipo?</string>
+  <string name="page_order_detail_complain_success_submit">il tuo reclamo è stato inviato con successo</string>
   <string name="page_intermediate_edit">Modificare il Carello</string>
   <string name="page_intermediate_invalid1">Spiacenti, questo prodotto non può essere spedito per alcuni motivi.</string>
   <string name="page_intermediate_invalid2">Puoi continuare a dare un'occhiata agli altri articoli o visualizzarne ancora.</string>
+  <string name="page_order_detail_complain_text_helpinfo">Descrivi dettagliatamente il motivo del reclamo per consentirci di risolvere al meglio il problema.</string>
   <string name="page_intermediate_common_error">Ops, qualcosa è andato storto con gli articoli selezionati. Vedi sotto per maggiori informazioni</string>
 </resources>

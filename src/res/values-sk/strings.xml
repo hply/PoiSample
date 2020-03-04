@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Podrobnosti o sťažnosti</string>
+  <string name="page_order_detail_complain_text_title1">Odošlite svoju sťažnosť</string>
+  <string name="page_order_detail_complain_text_title2">Tu napíšte svoju podrobnú správu:</string>
+  <string name="page_order_detail_complain_button">sťažovať si</string>
   <string name="page_stock1">zostáva už len jeden</string>
   <string name="page_stock2">zostáva {number} ks</string>
   <string name="app_continue">Pokračovať</string>
   <string name="page_intermediate_deliver_method">Spôsob doručenia</string>
   <string name="page_intermediate_invalid_delivery">Ľutujeme, vybraný typ produktu nie je na sklade. Zvážite výber iného typu?</string>
+  <string name="page_order_detail_complain_success_submit">vaša sťažnosť bola úspešne odoslaná</string>
   <string name="page_intermediate_edit">Upraviť tašku</string>
   <string name="page_intermediate_invalid1">Ľutujeme, tento produkt sa z nejakých dôvodov nedá doručiť.</string>
   <string name="page_intermediate_invalid2">Môžete pokračovať v kontrole ďalších položiek alebo si zobraziť viac.</string>
+  <string name="page_order_detail_complain_text_helpinfo">Podrobne opíšte dôvod svojej sťažnosti, aby sme mohli problém čo najlepšie vyriešiť.</string>
   <string name="page_intermediate_common_error">Ups, s vybranými položkami sa niečo pokazilo. Viac informácií nájdete nižšie</string>
 </resources>

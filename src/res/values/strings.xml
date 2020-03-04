@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Complaint Details</string>
+  <string name="page_order_detail_complain_text_title1">Submit Your Complaint</string>
+  <string name="page_order_detail_complain_text_title2">Please write your detailed message here:</string>
+  <string name="page_order_detail_complain_button">complain</string>
   <string name="page_stock1">only one left</string>
   <string name="page_stock2">{number}pcs left</string>
   <string name="app_continue">Continue</string>
   <string name="page_intermediate_deliver_method">Delivery Method</string>
   <string name="page_intermediate_invalid_delivery">Sorry, the selected product type is out of stock. Consider choosing another type?</string>
+  <string name="page_order_detail_complain_success_submit">your complaint has been successfully submitted</string>
   <string name="page_intermediate_edit">Edit Bag</string>
   <string name="page_intermediate_invalid1">Sorry, this product can't be shipped for some reasons.</string>
   <string name="page_intermediate_invalid2">You may continue to check out other items or view more .</string>
+  <string name="page_order_detail_complain_text_helpinfo">Please describe your complaint reason in detail so that we can best solve the problem.</string>
   <string name="page_intermediate_common_error">Oops, something went wrong with selected items. See below for more information</string>
 </resources>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Valituksen tarkat tiedot</string>
+  <string name="page_order_detail_complain_text_title1">Lähetä valituksesi</string>
+  <string name="page_order_detail_complain_text_title2">Ole hyvä ja kirjoita tarkat tiedot sisältävä viestisi tähän:</string>
+  <string name="page_order_detail_complain_button">valita</string>
   <string name="page_stock1">vain yksi jäljellä</string>
   <string name="page_stock2">{number} kpl jäljellä</string>
   <string name="app_continue">Jatkaa</string>
   <string name="page_intermediate_deliver_method">Toimitustapa</string>
   <string name="page_intermediate_invalid_delivery">Pahoittelemme, valitsemasi tuote on loppunut varastosta. Haluaisitko valita jotakin muuta?</string>
+  <string name="page_order_detail_complain_success_submit">valituksesi lähettäminen onnistui</string>
   <string name="page_intermediate_edit">Muokkaa Koria</string>
   <string name="page_intermediate_invalid1">Pahoittelemme, tätä tuotetta ei voida syystä tai toisesta toimittaa.</string>
   <string name="page_intermediate_invalid2">Voit jatkaa ostotapahtumaa muiden tuotteiden osalta tai selailla lisää tuotteita.</string>
+  <string name="page_order_detail_complain_text_helpinfo">Ole hyvä ja kuvaile valituksesi syy yksityiskohtaisesti, jotta voimme ratkaista ongelman mahdollisimman hyvin.</string>
   <string name="page_intermediate_common_error">Hupsis, jokin meni pieleen valituissa kohteissa. Lue alta lisätietoa</string>
 </resources>

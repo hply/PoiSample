@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Klageoplysninger</string>
+  <string name="page_order_detail_complain_text_title1">Indsend Din Klage</string>
+  <string name="page_order_detail_complain_text_title2">Skriv venligst din besked med detaljer her:</string>
+  <string name="page_order_detail_complain_button">klag</string>
   <string name="page_stock1">kun en tilbage</string>
   <string name="page_stock2">{number} stk tilbage</string>
   <string name="app_continue">Fortsæt</string>
   <string name="page_intermediate_deliver_method">Leveringsmetode</string>
   <string name="page_intermediate_invalid_delivery">Beklager, den valgte produkttype er ikke på lager. Overvej at vælge en anden type?</string>
+  <string name="page_order_detail_complain_success_submit">din klage er nu blevet indsendt</string>
   <string name="page_intermediate_edit">Rediger Kurv</string>
   <string name="page_intermediate_invalid1">Beklager, dette produkt kan ikke sendes af forskellige årsager.</string>
   <string name="page_intermediate_invalid2">Du kan fortsætte med at betale for andre varer eller se mere.</string>
+  <string name="page_order_detail_complain_text_helpinfo">Beskrive venligst årsagen til din klage i detaljer, så vi kan løse dit problem på bedste vis.</string>
   <string name="page_intermediate_common_error">Hovsa, noget gik galt med de valgte varer. Få flere oplysninger nedenfor</string>
 </resources>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Détails de la plainte</string>
+  <string name="page_order_detail_complain_text_title1">Soumettre votre plainte</string>
+  <string name="page_order_detail_complain_text_title2">Veuillez écrire votre message détaillé ici:</string>
+  <string name="page_order_detail_complain_button">se plaindre</string>
   <string name="page_stock1">plus qu'un seul</string>
   <string name="page_stock2">{number} pièces restantes</string>
   <string name="app_continue">Continuer</string>
   <string name="page_intermediate_deliver_method">Mode de livraison</string>
   <string name="page_intermediate_invalid_delivery">Désolé, le type de produit sélectionné est en rupture de stock. Songez-vous à en choisir un autre type ?</string>
+  <string name="page_order_detail_complain_success_submit">votre plainte a été soumise avec succès</string>
   <string name="page_intermediate_edit">Modifier le Panier</string>
   <string name="page_intermediate_invalid1">Désolé, ce produit ne peut être expédié pour certaines raisons.</string>
   <string name="page_intermediate_invalid2">Vous pouvez continuer à consulter d'autres articles ou en voir plus.</string>
+  <string name="page_order_detail_complain_text_helpinfo">Veuillez décrire en détail le motif de votre réclamation afin que nous puissions résoudre au mieux le problème.</string>
   <string name="page_intermediate_common_error">Oups, une erreur s'est produite avec les articles sélectionnés. Voir ci-dessous pour plus d'informations</string>
 </resources>

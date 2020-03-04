@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">ご意見の詳細</string>
+  <string name="page_order_detail_complain_text_title1">お客様のご意見を提出ください</string>
+  <string name="page_order_detail_complain_text_title2">詳しくお客様のご意見をこちらにお書きください:</string>
+  <string name="page_order_detail_complain_button">ご意見</string>
   <string name="page_stock1">残り1つのみ</string>
   <string name="page_stock2">残り{number}つ</string>
   <string name="app_continue">Continue</string>
   <string name="page_intermediate_deliver_method">デリバリー方法</string>
   <string name="page_intermediate_invalid_delivery">申し訳ありませんが、選択した種類の製品は在庫切れです。別の種類を選択することをご検討ください。</string>
+  <string name="page_order_detail_complain_success_submit">お客様のご意見は正常に提出されました</string>
   <string name="page_intermediate_edit">ショッピングバッグを編集する。</string>
   <string name="page_intermediate_invalid1">申し訳ありませんが、この商品は何らかの理由で発送できません。</string>
   <string name="page_intermediate_invalid2">引き続き他のアイテムをチェックアウトしたり、詳細を表示したりすることができます。</string>
+  <string name="page_order_detail_complain_text_helpinfo">問題を最善の形で解決できるようにお客様のご意見の理由を詳しくお書きください。</string>
   <string name="page_intermediate_common_error">恐れ入りますが、選択したアイテムに何か問題があったようです。詳細は以下をご参照ください。</string>
 </resources>

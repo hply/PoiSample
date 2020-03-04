@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+  <string name="page_order_detail_complain_autoinfo_msg3">Einzelheiten der Reklamation</string>
+  <string name="page_order_detail_complain_text_title1">Reichen Sie Ihre Reklamation ein</string>
+  <string name="page_order_detail_complain_text_title2">Bitte geben Sie Ihre detaillierte Nachricht hier ein:</string>
+  <string name="page_order_detail_complain_button">Reklamieren</string>
   <string name="page_stock1">nur noch einer übrig</string>
   <string name="page_stock2">{number} PCs übrig</string>
   <string name="app_continue">Weiter</string>
   <string name="page_intermediate_deliver_method">Versandart</string>
   <string name="page_intermediate_invalid_delivery">Entschuldigung, die gewählte Produktart ist vergriffen. Erwägen Sie es, eine andere Art zu wählen?</string>
+  <string name="page_order_detail_complain_success_submit">Ihre Reklamation wurde erfolgreich eingereicht</string>
   <string name="page_intermediate_edit">Warenkorb</string>
   <string name="page_intermediate_invalid1">Entschuldigung, aus irgendeinem Grund kann dieses Produkt nicht geliefert werden.</string>
   <string name="page_intermediate_invalid2">Sie können weitere Produkte ausprobieren oder mehr anschauen.</string>
+  <string name="page_order_detail_complain_text_helpinfo">Bitte beschreiben Sie ausführlich den Grund Ihrer Reklamation, damit wir das Problem bestmöglich lösen können.</string>
   <string name="page_intermediate_common_error">Ups, etwas ist mit den ausgewählten Artikeln schiefgelaufen. Siehe unten für mehr Informationen</string>
 </resources>

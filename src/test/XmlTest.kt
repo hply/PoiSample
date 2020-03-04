@@ -1,8 +1,6 @@
 package test
 
 import org.dom4j.Document
-import org.dom4j.DocumentHelper
-import org.dom4j.DocumentType
 import org.dom4j.Element
 import org.dom4j.io.OutputFormat
 import org.dom4j.io.SAXReader
@@ -15,7 +13,11 @@ const val out_xml_demo_path = "src/strings.xml"
 const val in_xml_demo_path = "src/strings_backup.xml"
 
 fun main() {
-    val dom = load(in_xml_demo_path)!!
+    val dom = load(in_xml_demo_path)
+    if (null == dom) {
+        print("excel文件不存在或者不可读！")
+        return
+    }
     val resourcesElement = dom.rootElement
     val elements = resourcesElement.elements("string")
     val list = arrayListOf<Pair<String, String>>()
@@ -51,14 +53,7 @@ fun main() {
 //    resourcesElement.addNamespace("android","http://schemas.android.com/apk/res/android")
 //    resourcesElement.addNamespace("app","http://schemas.android.com/apk/res-auto")
 //    resourcesElement.addNamespace("tools","http://schemas.android.com/tools")
-
-    val format: OutputFormat = OutputFormat.createPrettyPrint()
-    format.encoding = "utf-8"
-    val streamWriter = OutputStreamWriter(FileOutputStream(out_xml_demo_path), "UTF-8")
-    val writer = XMLWriter(streamWriter, format)
-    writer.write(dom)
-    writer.flush()
-    writer.close()
+    write(dom, out_xml_demo_path)
 }
 
 fun load(fileName: String): Document? {
@@ -69,4 +64,14 @@ fun load(fileName: String): Document? {
         ex.printStackTrace()
     }
     return document
+}
+
+fun write(dom: Document, xmlFilePath: String) {
+    val format: OutputFormat = OutputFormat.createPrettyPrint()
+    format.encoding = "utf-8"
+    val streamWriter = OutputStreamWriter(FileOutputStream(xmlFilePath), "UTF-8")
+    val writer = XMLWriter(streamWriter, format)
+    writer.write(dom)
+    writer.flush()
+    writer.close()
 }

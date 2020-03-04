@@ -1,5 +1,6 @@
 package test
 
+import cn.iyuxuan.poi.bean.LangBean
 import org.dom4j.DocumentHelper
 import org.dom4j.io.OutputFormat
 import org.dom4j.io.SAXReader
@@ -10,9 +11,11 @@ import java.io.IOException
 
 object TestXmlUtils {
 
-    fun write(path: String,
-              fileName: String,
-              codeLanList: List<Pair<String, String>>) {
+    private const val ROOT_TAG = "resources"
+
+    var removeDuplicates = true
+
+    fun write(path: String, fileName: String, codeLanList: List<LangBean>) {
         val xmlFileDir = File(path)
         if (!xmlFileDir.exists()) {
             //新增文件
@@ -32,16 +35,32 @@ object TestXmlUtils {
         } else {
             DocumentHelper.createDocument()
         }
-        //2.创建根对象
+        //2.创建/获取resources根对象
         val root = if (xmlFile.exists()) {
-            doc.rootElement
-        }else{
-            doc.addElement("resources")
+            val curRoot = doc.rootElement
+            if (curRoot.name == ROOT_TAG) {
+                curRoot
+            } else {
+                doc.remove(curRoot)
+                doc.addElement(ROOT_TAG)
+            }
+        } else {
+            doc.addElement(ROOT_TAG)
+        }
+        if (removeDuplicates) {
+            val elements = root.elementIterator("string")
+            if (elements.hasNext()){
+                val element = elements.next()
+                val code = element.attributeValue("name")
+                if (codeExists(codeLanList,code)){
+                    root.remove(element)
+                }
+            }
         }
         codeLanList.forEach {
             val textElement = root.addElement("string")
-            textElement.addAttribute("name", it.first)
-            textElement.text = it.second
+            textElement.addAttribute("name", it.code)
+            textElement.text = it.value
         }
         val format = OutputFormat.createPrettyPrint()
         format.encoding = "utf-8"
@@ -68,5 +87,14 @@ object TestXmlUtils {
                 e.printStackTrace()
             }
         }
+    }
+
+    private fun codeExists(codeLanList: List<LangBean>, code: String?): Boolean {
+        codeLanList.forEach {
+            if (it.code == code){
+                return true
+            }
+        }
+        return false
     }
 }

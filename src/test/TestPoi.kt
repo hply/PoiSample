@@ -1,5 +1,6 @@
 package test
 
+import cn.iyuxuan.poi.bean.LangBean
 import cn.iyuxuan.poi.toJson
 import cn.iyuxuan.poi.utils.ExcelUtils
 import cn.iyuxuan.poi.utils.StringUtils
@@ -15,7 +16,7 @@ fun main() {
     //println(excelMap.toJson())
 
     val testEn = excelMap["values"]?.map {
-        Pair<String, String>(it.key, it.value)
+        LangBean(it.key, it.value)
     }
     testEn?.let {
         TestXmlUtils.write("src/test8888","my_xml",it)

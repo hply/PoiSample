@@ -1,7 +1,6 @@
 package test
 
 import cn.iyuxuan.poi.bean.LangBean
-import cn.iyuxuan.poi.toJson
 import cn.iyuxuan.poi.utils.ExcelUtils
 import cn.iyuxuan.poi.utils.StringUtils
 import org.json.JSONObject
@@ -12,14 +11,15 @@ fun main() {
     val outputPath = configInfo["output_path"].toString()
     val languageMap = configInfo.getJSONObject("language-map")
     //读取配置文件input_file路径下的excel
-    val excelMap = ExcelUtils.readExcel(inputPath, languageMap)
+    val excelMap = NewExcelUtils.readExcel2Map(inputPath, languageMap)
     //println(excelMap.toJson())
 
-    val testEn = excelMap["values"]?.map {
-        LangBean(it.key, it.value)
-    }
+
+    val testEn = excelMap["values"]
+//    testEn?.add(LangBean("page_order_detail_complain_autoinfo_msg3","去重语言包新翻译"))
+    testEn?.add(LangBean("新增code","新增语言包"))
     testEn?.let {
-        TestXmlUtils.write("src/test8888","my_xml",it)
+        NewXmlUtils.write("src/test8888", it)
     }
 
 }

@@ -1,7 +1,10 @@
 package test
 
 import cn.iyuxuan.poi.bean.LangBean
+import cn.iyuxuan.poi.ui.ToastUtils
+import org.dom4j.Document
 import org.dom4j.DocumentHelper
+import org.dom4j.Element
 import org.dom4j.io.OutputFormat
 import org.dom4j.io.SAXReader
 import org.dom4j.io.XMLWriter
@@ -9,14 +12,22 @@ import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
 
-object TestXmlUtils {
+object NewXmlUtils {
 
     private const val ROOT_TAG = "resources"
 
     var removeDuplicates = true
 
-    fun write(path: String, fileName: String, codeLanList: List<LangBean>) {
-        val xmlFileDir = File(path)
+    fun write(dirPath: String, codeLanList: MutableList<LangBean>) {
+        if (codeLanList.isEmpty()) {
+            ToastUtils.toast("导入数据为空，请检查excel文件或者读取逻辑")
+            return
+        }
+        //文件中的去重
+        val newList = codeLanList.distinctBy {
+            it.code
+        }
+        val xmlFileDir = File(dirPath)
         if (!xmlFileDir.exists()) {
             //新增文件
             val makeSuccess = xmlFileDir.mkdirs()
@@ -24,24 +35,25 @@ object TestXmlUtils {
                 throw IllegalArgumentException("创建存放目录异常")
             }
         }
-        val xmlFile = File(xmlFileDir, if (fileName.endsWith(".xml")) {
-            fileName
-        } else {
-            "$fileName.xml"
-        })
+        val xmlFile = File(xmlFileDir, "strings.xml")
         //1.创建一个Document对象
         val doc = if (xmlFile.exists()) {
-            SAXReader().read(xmlFile)
+            try {
+                SAXReader().read(xmlFile)
+            } catch (e: Exception) {
+                //现存的xml格式异常，删除新建
+                DocumentHelper.createDocument()
+            }
         } else {
             DocumentHelper.createDocument()
         }
         //2.创建/获取resources根对象
         val root = if (xmlFile.exists()) {
-            val curRoot = doc.rootElement
-            if (curRoot.name == ROOT_TAG) {
+            val curRoot: Element? = doc.rootElement
+            if (curRoot?.name == ROOT_TAG) {
                 curRoot
             } else {
-                doc.remove(curRoot)
+                doc.clearContent()
                 doc.addElement(ROOT_TAG)
             }
         } else {
@@ -49,19 +61,24 @@ object TestXmlUtils {
         }
         if (removeDuplicates) {
             val elements = root.elementIterator("string")
-            if (elements.hasNext()){
-                val element = elements.next()
-                val code = element.attributeValue("name")
-                if (codeExists(codeLanList,code)){
-                    root.remove(element)
+            while (elements.hasNext()) {
+                val it = elements.next()
+                val code = it.attributeValue("name")
+                if (codeExists(newList, code)) {
+                    doc.remove(it)
+                    elements.remove()
                 }
             }
         }
-        codeLanList.forEach {
+        newList.forEach {
             val textElement = root.addElement("string")
             textElement.addAttribute("name", it.code)
             textElement.text = it.value
         }
+        writeDoc(xmlFile, doc)
+    }
+
+    private fun writeDoc(xmlFile: File, doc: Document) {
         val format = OutputFormat.createPrettyPrint()
         format.encoding = "utf-8"
         var xw: XMLWriter? = null
@@ -91,7 +108,7 @@ object TestXmlUtils {
 
     private fun codeExists(codeLanList: List<LangBean>, code: String?): Boolean {
         codeLanList.forEach {
-            if (it.code == code){
+            if (it.code == code) {
                 return true
             }
         }

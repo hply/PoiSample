@@ -24,7 +24,7 @@ object NewXmlUtils {
             return
         }
         //文件中的去重
-        val newList = codeLanList.distinctBy {
+        val newList = codeLanList.myDistinctBy {
             it.code
         }
         val xmlFileDir = File(dirPath)
@@ -113,5 +113,20 @@ object NewXmlUtils {
             }
         }
         return false
+    }
+
+    inline fun <T, K> Iterable<T>.myDistinctBy(selector: (T) -> K): List<T> {
+        //参考kotlin#distinctBy,使用set保存key,比contain效率高
+        val set = HashSet<K>()
+        val list = ArrayList<T>()
+        for (e in this) {
+            val key = selector(e)
+            if (!set.add(key)) {
+                //e这个对象必须实现equals和hasCode方法，不然不知道remove谁
+                list.remove(e)
+            }
+            list.add(e)
+        }
+        return list
     }
 }

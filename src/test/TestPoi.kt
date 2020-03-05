@@ -16,7 +16,7 @@ fun main() {
 
 
     val testEn = excelMap["values"]
-//    testEn?.add(LangBean("page_order_detail_complain_autoinfo_msg3","去重语言包新翻译"))
+    testEn?.add(LangBean("page_order_detail_complain_autoinfo_msg3","去重语言包新翻译"))
     testEn?.add(LangBean("新增code","新增语言包"))
     testEn?.let {
         NewXmlUtils.write("src/test8888", it)

@@ -16,5 +16,6 @@
   <string name="page_stock2">{number}pcs left</string>
   <string name="page_intermediate_deliver_method">Delivery Method</string>
   <string name="app_continue">Continue</string>
+  <string name="page_order_detail_complain_autoinfo_msg3">去重语言包新翻译</string>
   <string name="新增code">新增语言包</string>
 </resources>
